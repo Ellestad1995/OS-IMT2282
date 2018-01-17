@@ -4,23 +4,10 @@
 
 int main(void){
 
-int a = 0;
-goto seriously;
 
-//really:
-//a +=1;
-//a +=1;
-
-:seriously;
-if(a >= 10){
-a += 1;
-a += 1;
-
-}else{
-
+for(int a = 0; a <= 9;a++){
+	a += 1;
 }
-a = 0;
-
 
 
 return 0;
